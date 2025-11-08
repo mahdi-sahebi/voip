@@ -1,0 +1,10 @@
+/*
+
+!.git/
+!deps/
+!doc/
+!include/
+!src/
+!test/
+!LICENSE
+!.gitignore
