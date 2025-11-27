@@ -2,7 +2,7 @@
 
 
 # Variables
-set(LIB audio_stream)
+set(LIB library_name)
 set(HEADERS "")
 set(SOURCES "")
 
