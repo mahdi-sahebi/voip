@@ -1,21 +1,19 @@
-# Options
+# Information
+cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
+project(project_name LANGUAGES CXX VERSION 0.0.0)
 
 
-# Variables
+# Configuration
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS_RELEASE "-O2 -g0")
+set(CMAKE_C_FLAGS_RELEASE   "-O2 -g0")
+set(CMAKE_CXX_FLAGS_DEBUG   "-O0 -g3")
+set(CMAKE_C_FLAGS_DEBUG     "-O0 -g3")
 
 
-# Find Packages
-
-
-# Sub Directories
-
-
-# Executables
-
-
-# Include Directories
-
-
-# Libraries
-
+# Sub-Directory
+add_subdirectory(deps)
+add_subdirectory(src)
+add_subdirectory(test)
 
