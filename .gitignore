@@ -1,0 +1,13 @@
+/*
+
+!.git/
+!deps/
+!doc/
+!include/
+!src/
+!test/
+!LICENSE
+!.gitignore
+!CMakeLists.txt
+!README.MD
+
