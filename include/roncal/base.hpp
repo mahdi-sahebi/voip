@@ -1,6 +1,7 @@
 /* TODO(MN): Enum for magic number
  * Exception
  * const, noexcept
+ * Class diagram. Call model
  */
 
 #pragma once
