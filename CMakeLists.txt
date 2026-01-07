@@ -1,6 +1,6 @@
 # Information
 cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
-project(project_name LANGUAGES CXX VERSION 1.0.0)
+project(roncal LANGUAGES CXX VERSION 1.0.0)
 
 
 # Configuration
